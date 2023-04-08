@@ -10,7 +10,7 @@ const {
   postUsuario,
   putUsuario,
   deleteUsuario,
-} = require("../controllers/usaurios");
+} = require("../controllers/usuarios");
 const { validarJWT } = require("../middlewares/validar-jwt");
 
 const router = Router();
